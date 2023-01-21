@@ -1,0 +1,48 @@
+body {
+  background-color: azure;
+}
+
+button {
+  background-color: beige;
+  padding: 26px;
+}
+
+.centrado {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.numeros {
+  text-align: center;
+}
+.cero {
+  margin-top: 2px;
+}
+
+.uno-tres {
+  margin-top: 5px;
+}
+
+.cuatro-seis {
+  margin-top: 5px;
+}
+
+.siete-nueve {
+  margin-top: 5px;
+}
+
+.calculos,
+.mensajes {
+  margin-top: 5px;
+}
+
+.mensajes {
+  margin-top: 5px;
+  padding: 24px;
+}
+
+.igual {
+  margin-top: 2px;
+}

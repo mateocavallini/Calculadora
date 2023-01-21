@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+    <div class="centrado">
+
+        <div class="numeros">
+            <div class="borrar">
+                <button class="borrar" id="borra"> Borrar </button>
+            </div>
+            <div class="uno-tres">
+                <button onclick="boton(1)"> 1 </button>
+                <button onclick="boton(2)"> 2 </button>
+                <button onclick="boton(3)"> 3 </button>
+            </div>
+            <div class="cuatro-seis">
+                <button onclick="boton(4)"> 4 </button>
+                <button onclick="boton(5)"> 5 </button>
+                <button onclick="boton(6)"> 6 </button>
+            </div>
+            <div class="siete-nueve">
+                <button onclick="boton(7)"> 7 </button>
+                <button onclick="boton(8)"> 8 </button>
+                <button onclick="boton(9)"> 9 </button>
+            </div>
+            <div class="cero">
+                <button onclick="boton(0)" class="cero"> 0 </button>
+            </div>
+            <div class="calculos">
+                <button onclick="calculo('+')" id="suma"> + </button>
+                <button onclick="calculo('-')" id="resta"> - </button>
+                <button onclick="calculo('/')" id="divi"> / </button>
+                <button onclick="calculo('*')" id="multi"> * </button>
+            </div>
+            <div class="igual">
+                <button onclick="resultado()" id="igual"> = </button>
+            </div>
+            <input type="text" class="mensajes" id="mensaje"> </input>
+        </div>
+    </div>
+    <script src="acciones.js"></script>
+</body>
+
+</html>
